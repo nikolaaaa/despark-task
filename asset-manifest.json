@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/despark-task/static/css/main.a0fd0aff.css",
+    "main.css": "/despark-task/static/css/main.c613aa7a.css",
     "main.js": "/despark-task/static/js/main.3bdf65e4.js",
     "static/media/Roboto-Regular.eot": "/despark-task/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
     "static/media/Roboto-Regular.ttf": "/despark-task/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
@@ -25,11 +25,11 @@
     "static/media/slick.ttf": "/despark-task/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/despark-task/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/despark-task/index.html",
-    "main.a0fd0aff.css.map": "/despark-task/static/css/main.a0fd0aff.css.map",
+    "main.c613aa7a.css.map": "/despark-task/static/css/main.c613aa7a.css.map",
     "main.3bdf65e4.js.map": "/despark-task/static/js/main.3bdf65e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0fd0aff.css",
+    "static/css/main.c613aa7a.css",
     "static/js/main.3bdf65e4.js"
   ]
 }
