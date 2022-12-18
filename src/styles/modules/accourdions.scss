@@ -43,13 +43,17 @@
             }
 
             #{$section-parent}-content {
-                // padding-bottom: 1.563rem;
-                // padding-bottom: 25px;
                 visibility: visible;
                 opacity: 1;
 
                 > p {
                     opacity: 1;
+                }
+            }
+
+            .arrow {
+                &:before, &:after {
+                    transition: all 0.2s .2s ease-in-out;
                 }
             }
         }

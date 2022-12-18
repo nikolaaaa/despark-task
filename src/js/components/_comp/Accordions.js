@@ -34,6 +34,8 @@ const Accordions = ({
                         <div className="accordion-title" onClick={() => handleClick(index)}>
                             {icon && icon}
                             <h3>{title}</h3>
+
+                            <i className="arrow d-none d-block-sm"></i>
                         </div>
 
                         <div 

@@ -1,0 +1,39 @@
+
+// Arrow icon
+.arrow {    
+    position: absolute;
+    right: 0;
+    transition: all .2s ease-in-out;
+
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2px;
+        height: 9px;
+        background: $c_grey;
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:before {
+        transform: translate(-5px, -50%) rotate( -45deg );
+    }
+
+    &:after {
+        transform: translate(0, -50%) rotate( 45deg );
+    }
+}
+
+.open {
+    .arrow {
+        &:before {
+            transform: translate(-5px, -50%) rotate(-135deg);
+        }
+
+        &:after {
+            transform: translate(0, -50%) rotate( 135deg );
+        }
+    }
+}

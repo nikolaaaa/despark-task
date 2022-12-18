@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/despark-task/static/css/main.c613aa7a.css",
-    "main.js": "/despark-task/static/js/main.3bdf65e4.js",
+    "main.css": "/despark-task/static/css/main.a6ec5788.css",
+    "main.js": "/despark-task/static/js/main.bb197a83.js",
     "static/media/Roboto-Regular.eot": "/despark-task/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
     "static/media/Roboto-Regular.ttf": "/despark-task/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
     "static/media/Roboto-Bold.eot": "/despark-task/static/media/Roboto-Bold.6490694b37b0ee09bd91.eot",
@@ -25,11 +25,11 @@
     "static/media/slick.ttf": "/despark-task/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/despark-task/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/despark-task/index.html",
-    "main.c613aa7a.css.map": "/despark-task/static/css/main.c613aa7a.css.map",
-    "main.3bdf65e4.js.map": "/despark-task/static/js/main.3bdf65e4.js.map"
+    "main.a6ec5788.css.map": "/despark-task/static/css/main.a6ec5788.css.map",
+    "main.bb197a83.js.map": "/despark-task/static/js/main.bb197a83.js.map"
   },
   "entrypoints": [
-    "static/css/main.c613aa7a.css",
-    "static/js/main.3bdf65e4.js"
+    "static/css/main.a6ec5788.css",
+    "static/js/main.bb197a83.js"
   ]
 }
