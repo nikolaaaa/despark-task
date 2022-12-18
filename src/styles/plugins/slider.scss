@@ -80,7 +80,8 @@
     }
 
     &-dots {
-        bottom: -55px;
+        position: static;
+        margin-top: 37px;
 
         li {
             width: 12px;
