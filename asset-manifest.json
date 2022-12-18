@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/despark-task/static/css/main.a0fd0aff.css",
+    "main.js": "/despark-task/static/js/main.3bdf65e4.js",
+    "static/media/Roboto-Regular.eot": "/despark-task/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
+    "static/media/Roboto-Regular.ttf": "/despark-task/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
+    "static/media/Roboto-Bold.eot": "/despark-task/static/media/Roboto-Bold.6490694b37b0ee09bd91.eot",
+    "static/media/Roboto-Bold.ttf": "/despark-task/static/media/Roboto-Bold.5e9f6556d3c0bf6230f0.ttf",
+    "static/media/NunitoSans-Black.eot": "/despark-task/static/media/NunitoSans-Black.1bcb7b3b99523ac895d0.eot",
+    "static/media/NunitoSans-Black.ttf": "/despark-task/static/media/NunitoSans-Black.e01fc2c439207db95b19.ttf",
+    "static/media/settings.png": "/despark-task/static/media/settings.9f3dcaebe501d7250fe7.png",
+    "static/media/puzzle.png": "/despark-task/static/media/puzzle.e6164a0333a7cc9bb8d7.png",
+    "static/media/rocket.png": "/despark-task/static/media/rocket.dcd5b617ed4feb8175e2.png",
+    "static/media/Roboto-Bold.woff": "/despark-task/static/media/Roboto-Bold.3f2cbde6b72e8d05669f.woff",
+    "static/media/Roboto-Regular.woff": "/despark-task/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
+    "static/media/bubble.png": "/despark-task/static/media/bubble.fc7e6457e8eaf79c3237.png",
+    "static/media/NunitoSans-Black.woff": "/despark-task/static/media/NunitoSans-Black.53eb77855d5ba46d84ff.woff",
+    "static/media/Roboto-Bold.woff2": "/despark-task/static/media/Roboto-Bold.6cd35edfbc0d7a417131.woff2",
+    "static/media/Roboto-Regular.woff2": "/despark-task/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
+    "static/media/folder.png": "/despark-task/static/media/folder.aea1d77864eb070e18f0.png",
+    "static/media/boy.png": "/despark-task/static/media/boy.8d0b5ad3cb9d1e35b21c.png",
+    "static/media/NunitoSans-Black.woff2": "/despark-task/static/media/NunitoSans-Black.0a95ee505ea9d511c5d9.woff2",
+    "static/media/slick.svg": "/despark-task/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/despark-task/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/despark-task/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/despark-task/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/despark-task/index.html",
+    "main.a0fd0aff.css.map": "/despark-task/static/css/main.a0fd0aff.css.map",
+    "main.3bdf65e4.js.map": "/despark-task/static/js/main.3bdf65e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0fd0aff.css",
+    "static/js/main.3bdf65e4.js"
+  ]
+}
