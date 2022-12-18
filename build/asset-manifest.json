@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69f510a5.css",
+    "main.js": "/static/js/main.a205a8ae.js",
+    "static/media/Roboto-Regular.eot": "/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
+    "static/media/Roboto-Bold.eot": "/static/media/Roboto-Bold.6490694b37b0ee09bd91.eot",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.5e9f6556d3c0bf6230f0.ttf",
+    "static/media/NunitoSans-Black.eot": "/static/media/NunitoSans-Black.1bcb7b3b99523ac895d0.eot",
+    "static/media/NunitoSans-Black.ttf": "/static/media/NunitoSans-Black.e01fc2c439207db95b19.ttf",
+    "static/media/settings.png": "/static/media/settings.9f3dcaebe501d7250fe7.png",
+    "static/media/puzzle.png": "/static/media/puzzle.e6164a0333a7cc9bb8d7.png",
+    "static/media/rocket.png": "/static/media/rocket.dcd5b617ed4feb8175e2.png",
+    "static/media/Roboto-Bold.woff": "/static/media/Roboto-Bold.3f2cbde6b72e8d05669f.woff",
+    "static/media/Roboto-Regular.woff": "/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
+    "static/media/bubble.png": "/static/media/bubble.fc7e6457e8eaf79c3237.png",
+    "static/media/NunitoSans-Black.woff": "/static/media/NunitoSans-Black.53eb77855d5ba46d84ff.woff",
+    "static/media/Roboto-Bold.woff2": "/static/media/Roboto-Bold.6cd35edfbc0d7a417131.woff2",
+    "static/media/Roboto-Regular.woff2": "/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
+    "static/media/folder.png": "/static/media/folder.aea1d77864eb070e18f0.png",
+    "static/media/boy.png": "/static/media/boy.8d0b5ad3cb9d1e35b21c.png",
+    "static/media/NunitoSans-Black.woff2": "/static/media/NunitoSans-Black.0a95ee505ea9d511c5d9.woff2",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.69f510a5.css.map": "/static/css/main.69f510a5.css.map",
+    "main.a205a8ae.js.map": "/static/js/main.a205a8ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f510a5.css",
+    "static/js/main.a205a8ae.js"
+  ]
+}

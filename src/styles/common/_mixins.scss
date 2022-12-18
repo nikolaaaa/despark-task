@@ -1,0 +1,31 @@
+$breakpoints: (
+    'lg': 1200px,
+    'md': 993px,
+    'sm': 768px,
+    'xs': 575px,
+) !default;
+
+@mixin media-below($breakpoint) {
+	// If the key exists in the map
+	@if map-has-key($breakpoints, $breakpoint) {
+		// Prints a media query based on the value
+		$breakpoint-value: map-get($breakpoints, $breakpoint);
+		@media only screen and (max-width: ($breakpoint-value - 1)) {
+			@content;
+		}
+	} @else {
+		@media only screen and (max-width: $breakpoint) {
+			@content;
+		}
+	}
+}
+
+@mixin text-linear-gradient {
+    background: -webkit-linear-gradient(45deg, $c-gradient-one, $c-gradient-two 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin background-linear-gradient {
+    background: linear-gradient(to right, $c-gradient-one, $c-gradient-two);
+}

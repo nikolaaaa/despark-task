@@ -1,0 +1,21 @@
+
+// Display
+.d-none {
+    display: none !important;
+}
+
+// Gradient
+.gradient-text {
+    @include text-linear-gradient;
+}
+
+// Margins
+.m-0 {
+    margin: 0;
+}
+
+@include media-below(sm) {
+    .d-block-sm {
+        display: block !important;
+    }
+}

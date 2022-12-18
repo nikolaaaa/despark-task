@@ -1,0 +1,121 @@
+.slide {
+    display: flex !important;
+    flex-direction: column;
+    opacity: .2;
+    transition: all 0.4s ease-in-out;
+
+    &-title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        margin: 0 15px 68px 0;
+        padding-bottom: 5px;
+
+        &:before,
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: $c_grey_secondary_02;
+            border-radius: 1px;
+        }
+
+        &:after {
+            width: 0;
+            @include background-linear-gradient;
+        }
+        
+        h3 {
+            margin: 0;
+            padding-block: 1.25em;
+            font-size: 1.25rem;
+            line-height: 32px;
+        }
+
+        > svg {
+            width: 30px;
+            margin-right: 14px;
+            transition: opacity .3s ease-in-out;
+        }
+    }
+
+    &-content {
+        color: $c_grey_08;
+        font-size: 1rem;
+        line-height: 24px;
+        margin-right: 10px;
+    }
+
+    &-image {
+        min-height: 245px;
+        margin-block: auto;
+
+        img {
+            max-height: 185px;
+            margin: 0 auto;
+        }
+    }
+}
+
+/* Override Slick */
+.slick {
+    $section-parent: &;
+
+    &-slide.slick-active {
+        .slide-title:after {
+            width: 100%;
+            transition: width .8s .4s cubic-bezier(0.05, 0.33, 0.05, 1);
+        }
+    }
+
+    &-active {
+        .slide {
+            opacity: 1;
+        }
+    }
+
+    &-dots {
+        bottom: -55px;
+
+        li {
+            width: 12px;
+            height: 12px;   
+            margin: 0 12px 0 0;
+            transition: width .4s ease-in;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            .dot {
+                padding: 0;
+                height: 100%;
+                width: 100%;
+                background-color: $c_grey_02;
+                border-radius: 50%;
+                transition: all .4s ease-in-out;
+            }
+
+            &.slick-active {
+                width: 40px;
+                
+                .dot {
+                    width: 100%;
+                    height: 12px;
+                    border-radius: 20px;
+                    @include background-linear-gradient;
+           
+
+                    &:before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
