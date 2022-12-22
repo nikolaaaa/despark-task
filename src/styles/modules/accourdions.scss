@@ -95,6 +95,31 @@
 }
 
 // Media queries
+@include media-below(md) {
+    .accordion {
+        $section-parent: &;
+
+        &-item {
+            #{$section-parent}-title {
+                h3 {
+                    color: $c_grey;
+                }
+            }
+
+            &.open {
+                #{$section-parent}-title {
+                    background: unset;
+                    -webkit-text-fill-color: unset;
+                    
+                    h3 {
+                        color: #0B163A;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @include media-below(sm) {
     .accordion {
         $section-parent: &;
